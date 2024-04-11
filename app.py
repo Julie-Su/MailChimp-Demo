@@ -57,7 +57,7 @@ campaign = mpf.campaign_creation_function(campaign_name=campaign_name,
 # news letter tempates creation
 # =============================================================================
 
-html_code = newsletter_template.html_code           
+html_code = campaign_template.html_code           
 
 mpf.customized_template(html_code=html_code, 
                     campaign_id=campaign['id'])
